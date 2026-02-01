@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv310/
+.env
+
+# Datasets (too large for GitHub)
+dataset/
+
+# Model files (optional – we'll decide later)
+*.h5
+*.keras
+*.tflite
+
+# IDE
+.idea/
