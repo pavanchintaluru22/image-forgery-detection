@@ -1,25 +1,4 @@
-Got it 👍 — nothing is “wrong” with GitHub or PyCharm.
-This happened **because Markdown syntax got broken while pasting** (missing `#`, missing closing ``` fences).
 
-I’ll fix it **cleanly and safely**.
-
----
-
-## ✅ What went wrong (quick)
-
-1. Headings **must start with `#`**
-2. Code blocks **must start AND end with triple backticks**
-3. Emojis don’t make text bold — Markdown does
-
-Because one ``` was missing, **everything below rendered as plain text**.
-
----
-
-## ✅ COPY-PASTE THIS FIXED VERSION (guaranteed to render correctly)
-
-Replace your README.md **entirely** with this 👇
-
-````markdown
 # Image Forgery Detection using Deep Learning and Grad-CAM
 
 This project detects whether an image is **AUTHENTIC** or **FORGED** using a deep learning model and explains the decision using **Grad-CAM visualizations**.
@@ -87,13 +66,5 @@ This project is for **educational and academic use**.
 
 ````
 
----
 
-## ✅ Now do THIS (important)
-
-```powershell
-git add README.md
-git commit -m "Fix README formatting"
-git push origin main
-````
 
